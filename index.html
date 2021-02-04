@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Ludo</title>
+</head>
+<body>
+    <div class="main">
+        <div id="dice"></div>
+        <div class="half1">
+            <div class="quarter1">
+                <div class="in0">
+                    <div class="top">
+                        <div class="place place1" id="tok0place">
+                            <div class="token token0" id="token00">
+                            </div>
+                        </div>
+                        <div class="place" id="tok1place">
+                            <div class="token token0" id="token01">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="place place1" id="tok2place">
+                            <div class="token token0" id="token02">
+                            </div>
+                        </div>
+                        <div class="place" id="tok3place">
+                            <div class="token token0" id="token03">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pos1">
+                    <div class="block" id="block-1"></div>
+                    <div class="block blocksave blocksave-2" id="block-2"></div>
+                    <div class="block" id="block-3"></div>
+                    <div class="block" id="block-4"></div>
+                    <div class="block" id="block-5"></div>
+                    <div class="block" id="block-6"></div>
+                </div>
+                <div class="pos2">
+                    <div class="block" id="block-7"></div>
+                    <div class="block" id="block-8"></div>
+                    <div class="block" id="block-9"></div>
+                    <div class="block blocksave blocksave-10" id="block-10"></div>
+                    <div class="block" id="block-11"></div>
+                    <div class="block" id="block-12"></div>
+                </div>
+                <div class="pos3">
+                    <div class="block save-0 save-00"></div>
+                    <div class="block save-0 save-01"></div>
+                    <div class="block save-0 save-02"></div>
+                    <div class="block save-0 save-03"></div>
+                    <div class="block save-0 save-04"></div>
+                    <div class="block" id="block-13"></div>
+                </div>
+            </div>
+            <div class="quarter2">
+                <div class="in1">
+                    <div class="top">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="pos4">
+                    <div class="block" id="block-14"></div>
+                    <div class="block blocksave blocksave-15" id="block-15"></div>
+                    <div class="block" id="block-16"></div>
+                    <div class="block" id="block-17"></div>
+                    <div class="block" id="block-18"></div>
+                    <div class="block" id="block-19"></div>
+                </div>
+                <div class="pos5">
+                    <div class="block" id="block-20"></div>
+                    <div class="block" id="block-21"></div>
+                    <div class="block" id="block-22"></div>
+                    <div class="block blocksave blocksave-23" id="block-23"></div>
+                    <div class="block block-24" id="block-24"></div>
+                    <div class="block block-25" id="block-25"></div>
+                </div>
+            </div>
+        </div>
+        <div class="half2">
+            <div class="quarter4">
+                <div class="in3">
+                    <div class="top">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="pos9">
+                    <div class="block" id="block-39"></div>
+                    <div class="block save-2 save-20"></div>
+                    <div class="block save-2 save-21"></div>
+                    <div class="block save-2 save-22"></div>
+                    <div class="block save-2 save-23"></div>
+                    <div class="block save-2 save-24"></div>
+                </div>
+                <div class="pos10">
+                    <div class="block" id="block-40"></div>
+                    <div class="block blocksave blocksave-41" id="block-41"></div>
+                    <div class="block" id="block-42"></div>
+                    <div class="block" id="block-43"></div>
+                    <div class="block" id="block-44"></div>
+                    <div class="block" id="block-45"></div>
+                </div>
+                <div class="last">
+                    <div class="pos11">
+                        <div class="block" id="block-46"></div>
+                        <div class="block" id="block-47"></div>
+                        <div class="block" id="block-48"></div>
+                        <div class="block blocksave blocksave-49" id="block-49"></div>
+                        <div class="block" id="block-50"></div>
+                        <div class="block" id="block-51"></div>
+                    </div>
+                    <div class="pos12">
+                        <div class="block" id="block-52"></div>
+                        <div class="block save-3 save-30"></div>
+                        <div class="block save-3 save-31"></div>
+                        <div class="block save-3 save-32"></div>
+                        <div class="block save-3 save-33"></div>
+                        <div class="block save-3 save-34"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="quarter3">
+                <div class="in2">
+                    <div class="top">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="place place1"></div>
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="pos6">
+                    <div class="block save-1 save-10"></div>
+                    <div class="block save-1 save-11"></div>
+                    <div class="block save-1 save-12"></div>
+                    <div class="block save-1 save-13"></div>
+                    <div class="block save-1 save-14"></div>
+                    <div class="block" id="block-26"></div>
+                </div>
+                <div class="pos7">
+                    <div class="block" id="block-27"></div>
+                    <div class="block blocksave blocksave-28" id="block-28"></div>
+                    <div class="block" id="block-29"></div>
+                    <div class="block" id="block-30"></div>
+                    <div class="block" id="block-31"></div>
+                    <div class="block" id="block-32"></div>
+                </div>
+                <div class="pos8">
+                    <div class="block" id="block-33"></div>
+                    <div class="block" id="block-34"></div>
+                    <div class="block" id="block-35"></div>
+                    <div class="block blocksave blocksave-36" id="block-36"></div>
+                    <div class="block" id="block-37"></div>
+                    <div class="block" id="block-38"></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

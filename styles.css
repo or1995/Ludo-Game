@@ -1,0 +1,372 @@
+.main {
+    width: 100vw;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.token {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+    border: solid 2px #000;
+    z-index: 10000;
+}
+
+.token0 {
+    background-color: #1195E4;
+}
+
+#dice {
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.half1 {
+    order: 2;
+    margin-left: -2px;
+}
+
+.half2 {
+    order: 1;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border: solid 2px #000;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.place1 {
+    margin-right: 4rem;
+}
+
+.in0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 27rem;
+    height: 27rem;
+    background-color: #1195E4;
+    /*background: rgb(0,180,219);
+    background: linear-gradient(241deg, rgba(0,180,219,1) 0%, rgba(0,131,176,1) 51%);*/
+    border: solid 2px #000;
+}
+
+.in1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27rem;
+    height: 27rem;
+    background-color: #F3D100;
+    /*background: rgb(242,153,74);
+    background: linear-gradient(315deg, rgba(242,153,74,1) 0%, rgba(242,153,74,1) 51%);*/
+    border: solid 2px #000;
+}
+
+.in2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 27rem;
+    height: 27rem;
+    background-color: #049646;
+    /*background: rgb(56,239,125);
+    background: linear-gradient(50deg, rgba(56,239,125,1) 0%, rgba(17,153,142,1) 51%);*/
+    border: solid 2px #000;
+}
+
+.in3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27rem;
+    height: 27rem;
+    background-color: #E8151C;
+    /*background: rgb(218,68,83);
+    background: linear-gradient(140deg, rgba(218,68,83,1) 0%, rgba(137,33,107,1) 51%);*/
+    border: solid 2px #000;
+}
+
+.block {
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid #000;
+}
+
+.quarter1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pos1 div {
+    margin-bottom: -2px;
+}
+
+.pos2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(4.5rem + 4px);
+}
+
+.pos2 div {
+    margin-left: -2px;
+}
+
+.pos3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -2px;
+    margin-left: calc(4.5rem + 4px);
+}
+
+.save-0 {
+    background-color: #F3D100;
+}
+
+.pos3 div {
+    margin-left: -2px;
+}
+
+.quarter2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pos4 div {
+    margin-left: -2px;
+}
+
+.pos4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(4.5rem + 4px);
+    margin-top: -2px;
+}
+
+.pos5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pos5 div {
+    margin-top: -2px;
+}
+
+.quarter3 {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 3.5rem;
+    margin-left: -2px;
+}
+
+.pos6 {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.1rem;
+}
+
+.pos6 div {
+    margin-top: -2px;
+}
+
+.save-1 {
+    background-color: #049646;
+}
+
+.pos7 {
+    order: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.1rem;
+    margin-right: -2px;
+}
+
+.pos7 div {
+    margin-top: -2px;
+}
+
+.pos8 {
+    margin-top: calc(-3.5rem - 2px);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pos8 div {
+    margin-right: -2px;
+}
+
+.quarter4 {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.pos9 {
+    order: 2;
+    display: flex;
+    margin-right: 2px;
+}
+
+.pos9 div {
+    margin-left: -2px;
+}
+
+.pos10 {
+    order: 3;
+    display: flex;
+    margin-right: 2px;
+    margin-bottom: -2px;
+}
+
+.pos10 div {
+    margin-left: -2px;
+}
+
+.last {
+    width: min-content;
+    order: 3;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 27.63rem;
+}
+
+.pos11 {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.pos11 div {
+    margin-bottom: -2px;
+}
+
+.pos12 {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    margin-left: -2px;
+}
+
+.pos12 div {
+    margin-bottom: -2px;
+}
+
+.save-3 {
+    background-color: #1195E4;
+}
+
+
+.save-2 {
+    background-color: #E8151C;
+}
+
+
+.blocksave-2 {
+    background-color: #1195E4;
+}
+
+.blocksave-10 {
+    background-color: #D3D3D3;
+}
+
+.blocksave-15 {
+    background-color: #F3D100;
+}
+
+.blocksave-23 {
+    background-color: #D3D3D3;
+}
+
+.blocksave-28 {
+    background-color: #049646;
+}
+
+.blocksave-36 {
+    background-color: #D3D3D3;
+}
+
+.blocksave-41 {
+    background-color: #E8151C;
+}
+
+.blocksave-49 {
+    background-color: #D3D3D3;
+}
